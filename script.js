@@ -26,6 +26,15 @@ const PROJECTS = [
       play: "https://www.roblox.com/",
       repo: "https://github.com/"
     }
+      {
+    title: "Sistema de Tiro ",
+    desc: "Sistema Tiro / Fps",
+    tags: ["LuaU", "Scripting"],
+  video: { type: "mp4", src: "assets/fps.mp4" }, // troque pelo seu ID
+    links: {
+      play: "https://www.roblox.com/",
+      repo: "https://github.com/"
+    }
   },
 ];
 
@@ -486,4 +495,5 @@ renderProjects();
 setupRevealObservers();
 
 resize();
+
 startCanvas();
