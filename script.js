@@ -26,6 +26,7 @@ const PROJECTS = [
       play: "https://www.roblox.com/",
       repo: "https://github.com/"
     }
+  },
       {
     title: "Sistema de Tiro ",
     desc: "Sistema Tiro / Fps",
@@ -497,3 +498,4 @@ setupRevealObservers();
 resize();
 
 startCanvas();
+
