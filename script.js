@@ -11,7 +11,7 @@ const PROJECTS = [
     title: "Sistema de abrir cadeado 3D ( Profissional ) ",
     desc: "Sistema 3D",
     tags: ["LuaU", "Scripting"],
-  video: { type: "mp4", src: "assets/Cadeado.mp4" }, // troque pelo seu ID
+  video: { type: "mp4", src: "Cadeado.mp4" }, // troque pelo seu ID
     links: {
       play: "https://www.roblox.com/",
       repo: "https://github.com/"
@@ -21,7 +21,7 @@ const PROJECTS = [
     title: "Sistema Jogo Maquinas",
     desc: "Maquinas e Compras",
     tags: ["LuaU", "Scripting"],
-    video: {type: "mp4", src: "assets/Jogo.mp4" },
+    video: {type: "mp4", src: "Jogo.mp4" },
     links: {
       play: "https://www.roblox.com/",
       repo: "https://github.com/"
@@ -31,7 +31,7 @@ const PROJECTS = [
     title: "Sistema de Tiro ",
     desc: "Sistema Tiro / Fps",
     tags: ["LuaU", "Scripting"],
-  video: { type: "mp4", src: "assets/fps.mp4" }, // troque pelo seu ID
+  video: { type: "mp4", src: "fps.mp4" }, // troque pelo seu ID
     links: {
       play: "https://www.roblox.com/",
       repo: "https://github.com/"
@@ -498,4 +498,5 @@ setupRevealObservers();
 resize();
 
 startCanvas();
+
 
