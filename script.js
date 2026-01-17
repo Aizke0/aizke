@@ -37,6 +37,16 @@ const PROJECTS = [
       repo: "https://github.com/"
     }
   },
+    {
+    title: "Sistema Custom Car ",
+    desc: "Sistema Custom",
+    tags: ["LuaU", "Scripting"],
+  video: { type: "mp4", src: "car.mp4" }, // troque pelo seu ID
+    links: {
+      play: "https://www.roblox.com/",
+      repo: "https://github.com/"
+    }
+  },
 ];
 
 /* =========================
@@ -498,5 +508,6 @@ setupRevealObservers();
 resize();
 
 startCanvas();
+
 
 
